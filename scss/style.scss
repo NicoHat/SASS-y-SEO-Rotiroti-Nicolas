@@ -1,0 +1,48 @@
+@import "variables";
+@import "map";
+@import "extend";
+@import "mixin";
+nav {
+    font-style: italic;   
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 29px;
+    
+}
+.restaurant-jpg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: $colorh2;
+    display: flex;
+    justify-content: center;
+}
+p {
+    font-style: italic;
+    color: $colorh2;
+    font-size: 30px;
+}
+
+a {
+    color: $colorh2;
+}
+ul {
+    display: table;
+    margin: 0 auto;
+}
+li{
+    font-size: 20px;
+    color: $colorh2;
+}
+.formcenter {
+    display: flex;
+    justify-content: center;
+}

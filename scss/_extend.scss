@@ -1,0 +1,30 @@
+.buttom {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.buttom-aceptar {
+    @extend .buttom;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.buttom-cancelar {
+    @extend .buttom;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+}

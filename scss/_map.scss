@@ -1,0 +1,10 @@
+$coloresPrincipales:(
+    colorPrimario:rgb(255, 126, 5),
+    colorSecundario:orange,
+);
+
+@each $clave, $valor in $coloresPrincipales {
+    .#{$clave}{
+        background-color: $valor;
+    }
+}

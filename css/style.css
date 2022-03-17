@@ -1,0 +1,109 @@
+.colorPrimario {
+  background-color: #ff7e05;
+}
+
+.colorSecundario {
+  background-color: orange;
+}
+
+.buttom, .buttom-aceptar, .buttom-cancelar {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.buttom-aceptar {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  background-color: green;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.buttom-cancelar {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+}
+
+nav {
+  font-style: italic;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  font-size: 29px;
+}
+
+.restaurant-jpg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: darkred;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+p {
+  font-style: italic;
+  color: darkred;
+  font-size: 30px;
+}
+
+a {
+  color: darkred;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  font-size: 20px;
+  color: darkred;
+}
+
+.formcenter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
